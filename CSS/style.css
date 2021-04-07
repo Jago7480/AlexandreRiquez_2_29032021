@@ -5,3 +5,12 @@ style.css
 Par Alexandre RIQUEZ
 */
 
+#logo /* Propriétés CSS du logo */
+{
+   margin: 50px; /* Marge extérieure de 50px */ 
+}
+
+#menu
+{
+    font-family: 'Raleway', sans-serif;
+}
