@@ -45,7 +45,7 @@ a:hover { /* Survol des liens et des images */
     padding-left: 50px;
 }
 
-#infos /* CSS de l'icone infos */
+#icon_infos /* CSS de l'icone infos */
 {
     width: 10px;
     height: 10px;
@@ -63,7 +63,7 @@ a:hover { /* Survol des liens et des images */
     align-items: center;
 }
 
-#economique
+#icon_economique /* CSS de l'icone economique */
 {
     width: 25px;
     height: 25px;
@@ -71,5 +71,38 @@ a:hover { /* Survol des liens et des images */
     border-radius: 50px;
     background-color: #DEEBFF;
     padding: 10px 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+}
+
+#icon_familial /* CSS de l'icone familial */
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+#icon_romantique /* CSS de l'icone romantique */
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+#icon_animaux /* CSS de l'icone animaux */
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    margin-left: 30px;
 }
