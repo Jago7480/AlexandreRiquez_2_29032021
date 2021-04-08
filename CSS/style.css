@@ -5,6 +5,11 @@ style.css
 Par Alexandre RIQUEZ
 */
 
+a:hover { /* Survol des liens et des images */
+    color: #0065FC;
+    text-decoration: underline overline;
+  }
+
 #logo /* Propriétes CSS du logo */ 
 {
     padding-left: 50px;
@@ -18,7 +23,7 @@ Par Alexandre RIQUEZ
     padding-left: 50px;
 }
 
-#marqueur
+#marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
 {
     width: 10px;
     height: 10px;
@@ -26,14 +31,21 @@ Par Alexandre RIQUEZ
     padding-right: 2px;
 }
 
-#filtres_indication
+#conteneur_infos_texte /* CSS du conteneur infos et indications */
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#filtres_indication /* CSS du texte à côté de l'icone d'infos */
 {
     font-family: 'Raleway', sans-serif;
     font-size: smaller;
     padding-left: 50px;
 }
 
-#infos
+#infos /* CSS de l'icone infos */
 {
     width: 10px;
     height: 10px;
@@ -44,9 +56,20 @@ Par Alexandre RIQUEZ
     margin-right: 10px;
 }
 
-#conteneur_infos_texte
+#conteneur_filtres /* CSS du conteneur filtres */
 {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#economique
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    margin-right: 10px;
 }
