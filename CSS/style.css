@@ -18,6 +18,14 @@ Par Alexandre RIQUEZ
     padding-left: 50px;
 }
 
+#marqueur
+{
+    width: 10px;
+    height: 10px;
+    padding-left: 50px;
+    padding-right: 2px;
+}
+
 #filtres_indication
 {
     font-family: 'Raleway', sans-serif;
@@ -31,6 +39,14 @@ Par Alexandre RIQUEZ
     height: 10px;
     display: inline-block;
     border-radius: 50px;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 2px black;
     padding: 0.3em 0.3em;
+    margin-right: 10px;
+}
+
+#conteneur_infos_texte
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
