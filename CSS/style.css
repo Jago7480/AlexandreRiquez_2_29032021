@@ -5,6 +5,32 @@ style.css
 Par Alexandre RIQUEZ
 */
 
-h1 {
+#logo /* Propriétes CSS du logo */ 
+{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#slogan_searchbar
+{
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+#filtres_indication
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    padding-left: 50px;
+}
+
+#infos
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px black;
+    padding: 0.3em 0.3em;
 }
