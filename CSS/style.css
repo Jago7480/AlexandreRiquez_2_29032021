@@ -10,23 +10,39 @@ a:hover { /* Survol des liens et des images */
     text-decoration: underline overline;
   }
 
-#logo /* Propriétes CSS du logo */ 
+#logo /* CSS du logo */ 
 {
     padding-left: 50px;
     padding-top: 50px;
 }
 
-#slogan_searchbar
+#slogan /* CSS du slogan */
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     padding-left: 50px;
 }
 
+#searchbar /* CSS de la searchbar */
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: normal;
+}
+
+#conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
+{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    padding: 0.3em 0.3em;
+    max-width: 400px;
+}
+
 #marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
 {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     padding-left: 50px;
     padding-right: 2px;
 }
@@ -45,7 +61,7 @@ a:hover { /* Survol des liens et des images */
     padding-left: 50px;
 }
 
-#icon_infos /* CSS de l'icone infos */
+#icon_infos /* CSS de l'icone infos et son cercle */
 {
     width: 10px;
     height: 10px;
