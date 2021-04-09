@@ -7,13 +7,25 @@ Par Alexandre RIQUEZ
 
 a:hover { /* Survol des liens et des images */
     color: #0065FC;
-    text-decoration: underline overline;
+    text-decoration: underline;
   }
+
+#container_logomenu /* CSS du contenant logo et menu */
+{
+    display: flex;
+}
 
 #logo /* CSS du logo */ 
 {
     padding-left: 50px;
     padding-top: 50px;
+}
+
+#menu /* CSS du menu en haut à droite */
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #slogan /* CSS du slogan */
