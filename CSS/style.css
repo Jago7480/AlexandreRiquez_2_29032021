@@ -134,3 +134,96 @@ a:hover { /* Survol des liens et des images */
     padding: 10px 10px;
     margin-left: 30px;
 }
+
+#etoiles /* CSS des étoiles */
+{
+
+}
+
+#etoile_bleue /* CSS de l'étoile bleue */
+{
+    width: 15px;
+    height: 15px;
+}
+
+#hebergement_marseille /* CSS du container hébergements à Marseille */
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cannebiere /* CSS du container Auberge la Cannebière */
+{
+
+}
+
+#hotel_port /* CSS du container Hôtel du port */
+{
+
+}
+
+#mouettes /* CSS du container Hôtel les mouettes */
+{
+
+}
+
+#hotel_mer /* CSS du container Hôtel de la mer */
+{
+
+}
+
+#le_panier /* CSS du container Auberge Le panier */
+{
+
+}
+
+#amina /* CSS du container Hôtel chez Amina */
+{
+
+}
+
+#populaires /* CSS du container Les plus populaires */
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#soleil_matin /* CSS du container Hôtel Le soleil du matin */
+{
+
+}
+
+#chambres_hotes /* CSS du container Au cœur de l'eau Chambres d'hôtes */
+{
+
+}
+
+#bleu_blanc /* CSS du container Hôtel Tout bleu et blanc */
+{
+
+}
+
+#container_footer /* CSS container footer, contenant à propos, hébergements et assistance */
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+#col_apropos /* CSS de la colonne footer à propos */
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#col_hebergements /* CSS de la colonne footer nos hébergements */
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#col_assistance /* CSS de la colonne footer assistance */
+{
+    display: flex;
+    flex-direction: column;
+}
