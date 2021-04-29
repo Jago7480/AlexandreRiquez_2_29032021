@@ -5,10 +5,23 @@ style.css
 Par Alexandre RIQUEZ
 */
 
-a:hover { /* Survol des liens et des images */
-    color: #0065FC;
-    text-decoration: underline;
-  }
+a /* CSS des liens */
+{
+    text-decoration: none;
+    color: black;
+}
+
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h3 /* CSS des titres H3 */
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
 
 #container_logomenu /* CSS du contenant logo et menu */
 {
@@ -21,17 +34,14 @@ a:hover { /* Survol des liens et des images */
     padding-top: 50px;
 }
 
-#menu /* CSS du menu en haut à droite */
+#container_menu /* CSS du menu en haut à droite */
 {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 #slogan /* CSS du slogan */
 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     padding-left: 50px;
 }
 
@@ -95,7 +105,6 @@ a:hover { /* Survol des liens et des images */
 {
     width: 25px;
     height: 25px;
-    display: inline-block;
     border-radius: 50px;
     background-color: #DEEBFF;
     padding: 10px 10px;
@@ -106,7 +115,6 @@ a:hover { /* Survol des liens et des images */
 {
     width: 25px;
     height: 25px;
-    display: inline-block;
     border-radius: 50px;
     background-color: #DEEBFF;
     padding: 10px 10px;
@@ -117,7 +125,6 @@ a:hover { /* Survol des liens et des images */
 {
     width: 25px;
     height: 25px;
-    display: inline-block;
     border-radius: 50px;
     background-color: #DEEBFF;
     padding: 10px 10px;
@@ -128,7 +135,6 @@ a:hover { /* Survol des liens et des images */
 {
     width: 25px;
     height: 25px;
-    display: inline-block;
     border-radius: 50px;
     background-color: #DEEBFF;
     padding: 10px 10px;
@@ -146,10 +152,16 @@ a:hover { /* Survol des liens et des images */
     height: 15px;
 }
 
-#hebergement_marseille /* CSS du container hébergements à Marseille */
+#hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    float: left;
 }
 
 #cannebiere /* CSS du container Auberge la Cannebière */
@@ -186,6 +198,11 @@ a:hover { /* Survol des liens et des images */
 {
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 10px;
 }
 
 #soleil_matin /* CSS du container Hôtel Le soleil du matin */
@@ -203,27 +220,52 @@ a:hover { /* Survol des liens et des images */
 
 }
 
+#activites_marseille /* CSS du container Activités à Marseille */
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+footer /* CSS du footer */
+{
+    background-color: #F2F2F2;
+    height: 200px;
+    position: relative;
+}
+
 #container_footer /* CSS container footer, contenant à propos, hébergements et assistance */
 {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    justify-content: space-evenly;
+    margin-right: 800px;
+    box-sizing: inherit;
 }
 
 #col_apropos /* CSS de la colonne footer à propos */
 {
     display: flex;
     flex-direction: column;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
 }
 
 #col_hebergements /* CSS de la colonne footer nos hébergements */
 {
     display: flex;
     flex-direction: column;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 #col_assistance /* CSS de la colonne footer assistance */
 {
     display: flex;
     flex-direction: column;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
