@@ -23,6 +23,12 @@ h3 /* CSS des titres H3 */
     font-weight: 700;
 }
 
+p /* CSS des textes p */
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 #container_logomenu /* CSS du contenant logo et menu */
 {
     display: flex;
