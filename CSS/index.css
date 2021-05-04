@@ -69,6 +69,12 @@ p /* CSS des textes p */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+#marqueur:hover /* CSS du bouton marqueur survolé */
+{
+    transform: scale(1.2);
 }
 
 #searchbar /* CSS de la searchbar */
@@ -103,6 +109,14 @@ p /* CSS des textes p */
     padding: 10px;
     padding-right: 13px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#button_searchbar:hover /* CSS du bouton rechercher survolé */
+{
+    background-color: #F2F2F2;
+    color: #0065FC;
+    border-color: #F2F2F2;
 }
 
 #conteneur_filtres /* CSS du conteneur filtres */
@@ -142,6 +156,13 @@ p /* CSS des textes p */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     z-index: 1;
+    transition: 0.3s;
+}
+
+#economique:hover /* CSS du bouton economique survolé */
+{
+    background-color: #0065FC;
+    color: white;
 }
 
 #conteneur_familial /* CSS du filtre familial */
@@ -173,6 +194,13 @@ p /* CSS des textes p */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     z-index: 1;
+    transition: 0.3s;
+}
+
+#familial:hover /* CSS du bouton familial survolé */
+{
+    background-color: #0065FC;
+    color: white;
 }
 
 #conteneur_romantique /* CSS du filtre romantique */
@@ -204,6 +232,13 @@ p /* CSS des textes p */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     z-index: 1;
+    transition: 0.3s;
+}
+
+#romantique:hover /* CSS du bouton romantique survolé */
+{
+    background-color: #0065FC;
+    color: white;
 }
 
 #conteneur_animaux /* CSS du filtre animaux */
@@ -235,6 +270,13 @@ p /* CSS des textes p */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     z-index: 1;
+    transition: 0.3s;
+}
+
+#animaux:hover /* CSS du bouton animaux survolé */
+{
+    background-color: #0065FC;
+    color: white;
 }
 
 #conteneur_infos_texte /* CSS du conteneur infos et indications */
@@ -259,33 +301,35 @@ p /* CSS des textes p */
     border: solid #F2F2F2;
     padding: 5px;
     margin-right: 10px;
+    transition: 0.3s;
 }
 
-#etoiles /* CSS des étoiles */
+#icon_infos:hover /* CSS du bouton infos survolé */
 {
-
+    transform: scale(1.2);
 }
 
-#etoile_bleue /* CSS de l'étoile bleue */
+#container_hebergementspopulaire /* CSS du container incluant Hébergements à Marseille et Les plus populaires */
 {
-    width: 15px;
-    height: 15px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
-    display: flex;
-    flex-wrap: wrap;
     font-weight: 400;
-    border: none;
+    width: 500px;
     background-color: #F2F2F2;
     border-radius: 10px;
-    float: left;
+    padding: 20px;
+    margin: 10px;
 }
 
 #cannebiere /* CSS du container Auberge la Cannebière */
 {
-
+    border-radius: 10px;
+    box-shadow: black;
 }
 
 #hotel_port /* CSS du container Hôtel du port */
@@ -316,11 +360,19 @@ p /* CSS des textes p */
 #populaires /* CSS du container Les plus populaires */
 {
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
     font-weight: 400;
-    border: none;
+    width: 500px;
     background-color: #F2F2F2;
     border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#icone_chart /* CSS de l'icone chart */
+{
+    width: 20px;
+    height: 20px;
 }
 
 #soleil_matin /* CSS du container Hôtel Le soleil du matin */
@@ -341,6 +393,7 @@ p /* CSS des textes p */
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
+    margin-left: 50px;
 }
 
 footer /* CSS du footer */
@@ -354,7 +407,6 @@ footer /* CSS du footer */
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     margin-right: 800px;
     box-sizing: inherit;
 }
@@ -365,6 +417,8 @@ footer /* CSS du footer */
     flex-direction: column;
     line-height: 30px;
     font-weight: 500;
+    margin-left: 50px;
+    margin-right: 200px;
 
 }
 
@@ -374,6 +428,7 @@ footer /* CSS du footer */
     flex-direction: column;
     line-height: 30px;
     font-weight: 500;
+    margin-right: 200px;
 }
 
 #col_assistance /* CSS de la colonne footer assistance */
