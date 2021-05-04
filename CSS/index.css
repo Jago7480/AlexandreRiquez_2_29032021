@@ -19,6 +19,7 @@ a /* CSS des liens */
 h1 /* CSS des titres H1 */
 {
     font-weight: 700;
+    font-size: 20px;
 }
 
 h3 /* CSS des titres H3 */
@@ -29,12 +30,14 @@ h3 /* CSS des titres H3 */
 p /* CSS des textes p */
 {
     font-weight: 400;
+    font-size: 14px;
 }
 
 #logo /* CSS du logo */ 
 {
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 #container_menu /* CSS du menu en haut à droite */
@@ -46,12 +49,8 @@ p /* CSS des textes p */
 #slogan /* CSS du slogan */
 {
     padding-left: 50px;
-}
-
-#searchbar /* CSS de la searchbar */
-{
-    font-weight: 400;
-    font-size: normal;
+    line-height: 10px;
+    margin-bottom: 20px;
 }
 
 #conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
@@ -77,6 +76,10 @@ p /* CSS des textes p */
     padding: 10px;
     border: solid 1px;
     border-color: #F2F2F2;
+    padding-right: 25px;
+    outline: none;
+    font-weight: 400;
+    font-size: normal;
 }
 
 ::placeholder /* CSS du placeholder Marseille, France */
@@ -98,19 +101,23 @@ p /* CSS des textes p */
     border-bottom-right-radius: 10px;
     margin-left: -5px;
     padding: 10px;
+    padding-right: 13px;
     cursor: pointer;
 }
 
 #conteneur_filtres /* CSS du conteneur filtres */
 {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
 }
 
 #conteneur_economique /* CSS du filtre économique */
 {
     display: flex;
     align-items: center;
+    margin: 5px;
+    margin-left: 25px;
 }
 
 #icon_economique /* CSS de l'icone economique */
@@ -141,6 +148,7 @@ p /* CSS des textes p */
 {
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 
 #icon_familial /* CSS de l'icone familial */
@@ -171,6 +179,7 @@ p /* CSS des textes p */
 {
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 
 #icon_romantique /* CSS de l'icone romantique */
@@ -201,6 +210,7 @@ p /* CSS des textes p */
 {
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 
 #icon_animaux /* CSS de l'icone animaux */
@@ -246,8 +256,8 @@ p /* CSS des textes p */
     height: 10px;
     display: inline-block;
     border-radius: 50px;
-    box-shadow: 0px 0px 2px black;
-    padding: 0.3em 0.3em;
+    border: solid #F2F2F2;
+    padding: 5px;
     margin-right: 10px;
 }
 
