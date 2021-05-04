@@ -1,9 +1,14 @@
 /*
-style.css
+index.css
 ---------
  
 Par Alexandre RIQUEZ
 */
+
+body /* CSS du body */
+{
+    font-family: 'Raleway', sans-serif;
+}
 
 a /* CSS des liens */
 {
@@ -11,27 +16,19 @@ a /* CSS des liens */
     color: black;
 }
 
-h1
+h1 /* CSS des titres H1 */
 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
 h3 /* CSS des titres H3 */
 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
 p /* CSS des textes p */
 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
-}
-
-#container_logomenu /* CSS du contenant logo et menu */
-{
-    display: flex;
 }
 
 #logo /* CSS du logo */ 
@@ -42,8 +39,8 @@ p /* CSS des textes p */
 
 #container_menu /* CSS du menu en haut à droite */
 {
-    font-family: 'Raleway', sans-serif;
     flex-direction: row;
+    float: right;
 }
 
 #slogan /* CSS du slogan */
@@ -53,27 +50,58 @@ p /* CSS des textes p */
 
 #searchbar /* CSS de la searchbar */
 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: normal;
 }
 
 #conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
 {
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px black;
-    padding: 0.3em 0.3em;
-    max-width: 400px;
+    display: inline-flex;
+    margin-left: 50px;
 }
 
 #marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
 {
     width: 15px;
     height: 15px;
-    padding-left: 50px;
-    padding-right: 2px;
+    border: solid 1px;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
 }
+
+#searchbar /* CSS de la searchbar */
+{
+    padding: 10px;
+    border: solid 1px;
+    border-color: #F2F2F2;
+}
+
+::placeholder /* CSS du placeholder Marseille, France */
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 750;
+    color: black;
+}
+
+#button_searchbar /* CSS du bouton rechercher */
+{
+    background-color: #0065FC;
+    border: solid 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-color: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
 
 #conteneur_infos_texte /* CSS du conteneur infos et indications */
 {
@@ -84,7 +112,6 @@ p /* CSS des textes p */
 
 #filtres_indication /* CSS du texte à côté de l'icone d'infos */
 {
-    font-family: 'Raleway', sans-serif;
     font-size: smaller;
     padding-left: 50px;
 }
@@ -162,7 +189,6 @@ p /* CSS des textes p */
 {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     border: none;
     background-color: #F2F2F2;
@@ -204,7 +230,6 @@ p /* CSS des textes p */
 {
     display: flex;
     flex-direction: column;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     border: none;
     background-color: #F2F2F2;
@@ -228,7 +253,6 @@ p /* CSS des textes p */
 
 #activites_marseille /* CSS du container Activités à Marseille */
 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -253,7 +277,6 @@ footer /* CSS du footer */
     display: flex;
     flex-direction: column;
     line-height: 30px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
 
 }
@@ -263,7 +286,6 @@ footer /* CSS du footer */
     display: flex;
     flex-direction: column;
     line-height: 30px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 
@@ -272,6 +294,5 @@ footer /* CSS du footer */
     display: flex;
     flex-direction: column;
     line-height: 30px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
