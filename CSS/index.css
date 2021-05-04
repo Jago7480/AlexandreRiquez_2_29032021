@@ -101,7 +101,131 @@ p /* CSS des textes p */
     cursor: pointer;
 }
 
+#conteneur_filtres /* CSS du conteneur filtres */
+{
+    display: flex;
+    flex-direction: row;
+}
 
+#conteneur_economique /* CSS du filtre économique */
+{
+    display: flex;
+    align-items: center;
+}
+
+#icon_economique /* CSS de l'icone economique */
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 11px;
+    z-index: 10;
+}
+
+#economique /* CSS du bouton économique */
+{
+    margin: 10px;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 1;
+}
+
+#conteneur_familial /* CSS du filtre familial */
+{
+    display: flex;
+    align-items: center;
+}
+
+#icon_familial /* CSS de l'icone familial */
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 11px;
+    z-index: 10;
+}
+
+#familial /* CSS du bouton familial */
+{
+    margin: 10px;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 1;
+}
+
+#conteneur_romantique /* CSS du filtre romantique */
+{
+    display: flex;
+    align-items: center;
+}
+
+#icon_romantique /* CSS de l'icone romantique */
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 11px;
+    z-index: 10;
+}
+
+#romantique /* CSS du bouton romantique */
+{
+    margin: 10px;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 1;
+}
+
+#conteneur_animaux /* CSS du filtre animaux */
+{
+    display: flex;
+    align-items: center;
+}
+
+#icon_animaux /* CSS de l'icone animaux */
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    padding: 11px;
+    z-index: 10;
+}
+
+#animaux /* CSS du bouton animaux */
+{
+    margin: 10px;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 1;
+}
 
 #conteneur_infos_texte /* CSS du conteneur infos et indications */
 {
@@ -125,53 +249,6 @@ p /* CSS des textes p */
     box-shadow: 0px 0px 2px black;
     padding: 0.3em 0.3em;
     margin-right: 10px;
-}
-
-#conteneur_filtres /* CSS du conteneur filtres */
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#icon_economique /* CSS de l'icone economique */
-{
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-    background-color: #DEEBFF;
-    padding: 10px 10px;
-    margin-left: 30px;
-}
-
-#icon_familial /* CSS de l'icone familial */
-{
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-    background-color: #DEEBFF;
-    padding: 10px 10px;
-    margin-left: 30px;
-}
-
-#icon_romantique /* CSS de l'icone romantique */
-{
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-    background-color: #DEEBFF;
-    padding: 10px 10px;
-    margin-left: 30px;
-}
-
-#icon_animaux /* CSS de l'icone animaux */
-{
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-    background-color: #DEEBFF;
-    padding: 10px 10px;
-    margin-left: 30px;
 }
 
 #etoiles /* CSS des étoiles */
