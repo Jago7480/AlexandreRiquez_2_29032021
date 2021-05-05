@@ -5,6 +5,8 @@ index.css
 Par Alexandre RIQUEZ
 */
 
+/* CSS DE BASE */
+
 body /* CSS du body */
 {
     font-family: 'Raleway', sans-serif;
@@ -33,6 +35,8 @@ p /* CSS des textes p */
     font-size: 14px;
 }
 
+/* CSS DU HEADER */
+
 #logo /* CSS du logo */ 
 {
     padding-left: 50px;
@@ -44,14 +48,60 @@ p /* CSS des textes p */
 {
     flex-direction: row;
     float: right;
+    margin: 50px 50px;
+}
+
+#Hebergements /* CSS d'Hébergements dans le menu */
+{
+    padding: 35px;
+    padding-top: 55px;
+    transition: 0.2s;
+}
+
+#Hebergements:hover /* CSS d'Hébergements survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+}
+
+#Activites /* CSS d'Activités dans le menu */
+{
+    padding: 35px;
+    padding-top: 55px;
+    transition: 0.2s;
+}
+
+#Activites:hover /* CSS d'Activités survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+}
+
+#Sinscrire /* CSS de S'inscrire dans le menu */
+{
+    color: #0065FC;
+    font-weight: bold;
+    padding: 35px;
+    padding-top: 55px;
+    transition: 0.2s;
+}
+
+#Sinscrire:hover /* CSS de S'inscrire survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
 }
 
 #slogan /* CSS du slogan */
 {
-    padding-left: 50px;
     line-height: 10px;
-    margin-bottom: 20px;
+    margin-left: 50px;
 }
+
+/* CSS SEARCH BAR & FILTRES */
 
 #conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
 {
@@ -309,6 +359,8 @@ p /* CSS des textes p */
     transform: scale(1.2);
 }
 
+/* CSS DU CONTAINER HEBERGEMENT ET POPULAIRE */
+
 #container_hebergementspopulaire /* CSS du container incluant Hébergements à Marseille et Les plus populaires */
 {
     display: flex;
@@ -316,85 +368,389 @@ p /* CSS des textes p */
     margin-top: 10px;
 }
 
+/* CSS D'HEBERGEMENTS A MARSEILLE */
+
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     font-weight: 400;
-    width: 500px;
+    width: 880px;
     background-color: #F2F2F2;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+#container_hebergementsmarseille /* CSS du container des hotels d'hébergements à Marseille */
+{
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin-top: 10px;
 }
 
 #cannebiere /* CSS du container Auberge la Cannebière */
 {
-    border-radius: 10px;
-    box-shadow: black;
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#img_cannebiere /* CSS de l'image Auberge la Cannebière */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_cannebiere:hover
+{
+    opacity: 50%;
 }
 
 #hotel_port /* CSS du container Hôtel du port */
 {
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
 
+#img_hotelport /* CSS de l'image de l'Hotel du port */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_hotelport:hover
+{
+    opacity: 50%;
 }
 
 #mouettes /* CSS du container Hôtel les mouettes */
 {
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-bottom: 30px;
+}
 
+#img_mouettes /* CSS de l'image de l'hotel les mouettes */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_mouettes:hover
+{
+    opacity: 50%;
 }
 
 #hotel_mer /* CSS du container Hôtel de la mer */
 {
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-right: 30px;
+}
 
+#img_hotelmer /* CSS de l'image Hôtel de la mer */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_hotelmer:hover
+{
+    opacity: 50%;
 }
 
 #le_panier /* CSS du container Auberge Le panier */
 {
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-right: 30px;
+}
 
+#img_lepanier /* CSS de l'image Auberge le panier */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_lepanier:hover
+{
+    opacity: 50%;
 }
 
 #amina /* CSS du container Hôtel chez Amina */
 {
-
+    border-radius: 20px;
+    width: 245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
 }
+
+#img_amina /* CSS de l'image Hôtel chez Amina */
+{
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 5px;
+    width: 236px;
+    height: 114px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_amina:hover
+{
+    opacity: 50%;
+}
+
+#afficherplus /* CSS du bouton "Afficher plus" */
+{
+    font-weight: bold;
+    margin-top: 45px;
+    transition: 0.2s;
+}
+
+#afficherplus:hover /* CSS du bouton "Afficher plus" survolé */
+{
+    color: #0065FC;
+}
+
+/* CSS LES PLUS POPULAIRES */
 
 #populaires /* CSS du container Les plus populaires */
 {
-    display: flex;
-    align-items: baseline;
     font-weight: 400;
-    width: 500px;
+    width: 420px;
     background-color: #F2F2F2;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#populaireschart /* CSS du container incluant "les plus populaires" et l'icone chart */
+{
+    display: flex;
+    align-items: center;
 }
 
 #icone_chart /* CSS de l'icone chart */
 {
     width: 20px;
     height: 20px;
+    margin-left: 140px;
+}
+
+#container_lespluspopulaires /* CSS du container inclant les plus populaires */
+{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 #soleil_matin /* CSS du container Hôtel Le soleil du matin */
 {
+    border-radius: 20px;
+    width: 345px;
+    height: 145px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-bottom: 30px;
+}
 
+#img_soleilmatin /* CSS de l'image Hôtel Le soleil du matin */
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    width: 127px;
+    height: 134px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_soleilmatin:hover
+{
+    opacity: 50%;
 }
 
 #chambres_hotes /* CSS du container Au cœur de l'eau Chambres d'hôtes */
 {
+    border-radius: 20px;
+    width: 345px;
+    height: 145px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-bottom: 30px;
+}
 
+#img_chambreshotes /* CSS de l'image Au coeur de l'eau chambres d'hôtes */
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    width: 127px;
+    height: 134px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_chambreshotes:hover
+{
+    opacity: 50%;
 }
 
 #bleu_blanc /* CSS du container Hôtel Tout bleu et blanc */
 {
-
+    border-radius: 20px;
+    width: 345px;
+    height: 145px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
 }
+
+#img_bleublanc /* CSS de l'image Hôtel tout bleu et blanc */
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    width: 127px;
+    height: 134px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_bleublanc:hover
+{
+    opacity: 50%;
+}
+
+/* CSS DES ACTIVITÉS A MARSEILLE */
 
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
     margin-left: 50px;
 }
+
+#Vieux_port
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin-left: 50px;
+    display: flex;
+}
+
+#Pomegues_Frioul /* CSS container */
+{
+    flex-direction: column;
+}
+
+#Pomegues
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#Frioul
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#Calanques
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    display: flex;
+}
+
+#Dame_Longchamp /* CSS container */
+{
+    flex-direction: column;
+}
+
+#Dame_garde
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+#Longchamp
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 210px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+/* CSS DU FOOTER */
 
 footer /* CSS du footer */
 {
