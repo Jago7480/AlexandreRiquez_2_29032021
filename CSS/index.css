@@ -710,6 +710,22 @@ p /* CSS des textes p */
     margin-right: 45px;
 }
 
+#img_vieuxport
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_vieuxport:hover
+{
+    opacity: 50%;
+}
+
 #Pomegues_Frioul /* CSS container */
 {
     flex-direction: column;
@@ -726,6 +742,22 @@ p /* CSS des textes p */
     margin-bottom: 40px;
 }
 
+#img_pomegues
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_pomegues:hover
+{
+    opacity: 50%;
+}
+
 #Frioul
 {
     border-radius: 20px;
@@ -733,6 +765,22 @@ p /* CSS des textes p */
     height: 170px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_frioul
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_frioul:hover
+{
+    opacity: 50%;
 }
 
 #Calanques
@@ -743,6 +791,22 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-right: 45px;
+}
+
+#img_calanques
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_calanques:hover
+{
+    opacity: 50%;
 }
 
 #Dame_Longchamp /* CSS container */
@@ -759,6 +823,23 @@ p /* CSS des textes p */
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 40px;
 }
+
+#img_damegarde
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 130px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_damegarde:hover
+{
+    opacity: 50%;
+}
+
 #Longchamp
 {
     border-radius: 20px;
@@ -766,6 +847,22 @@ p /* CSS des textes p */
     height: 210px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_longchamp
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 140px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#img_longchamp:hover
+{
+    opacity: 50%;
 }
 
 /* CSS DU FOOTER */
