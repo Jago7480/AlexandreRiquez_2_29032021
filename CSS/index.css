@@ -379,7 +379,7 @@ p /* CSS des textes p */
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     font-weight: 400;
-    width: 880px;
+    width: 800px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
@@ -403,6 +403,12 @@ p /* CSS des textes p */
     box-shadow: 0px 1px 10px -5px black;
     margin-right: 30px;
     margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#cannebiere:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_cannebiere /* CSS de l'image Auberge la Cannebière */
@@ -417,10 +423,7 @@ p /* CSS des textes p */
     transition: 0.4s;
 }
 
-#img_cannebiere:hover
-{
-    opacity: 50%;
-}
+
 
 #hotel_port /* CSS du container Hôtel du port */
 {
@@ -431,6 +434,12 @@ p /* CSS des textes p */
     box-shadow: 0px 1px 10px -5px black;
     margin-right: 30px;
     margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#hotel_port:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_hotelport /* CSS de l'image de l'Hotel du port */
@@ -442,12 +451,6 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_hotelport:hover
-{
-    opacity: 50%;
 }
 
 #mouettes /* CSS du container Hôtel les mouettes */
@@ -458,6 +461,12 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#mouettes:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_mouettes /* CSS de l'image de l'hotel les mouettes */
@@ -469,12 +478,6 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_mouettes:hover
-{
-    opacity: 50%;
 }
 
 #hotel_mer /* CSS du container Hôtel de la mer */
@@ -485,6 +488,12 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-right: 30px;
+    transition: 0.4s;
+}
+
+#hotel_mer:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_hotelmer /* CSS de l'image Hôtel de la mer */
@@ -496,12 +505,6 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_hotelmer:hover
-{
-    opacity: 50%;
 }
 
 #le_panier /* CSS du container Auberge Le panier */
@@ -512,6 +515,12 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-right: 30px;
+    transition: 0.4s;
+}
+
+#le_panier:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_lepanier /* CSS de l'image Auberge le panier */
@@ -523,12 +532,6 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_lepanier:hover
-{
-    opacity: 50%;
 }
 
 #amina /* CSS du container Hôtel chez Amina */
@@ -538,6 +541,12 @@ p /* CSS des textes p */
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    transition: 0.4s;
+}
+
+#amina:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_amina /* CSS de l'image Hôtel chez Amina */
@@ -549,12 +558,6 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_amina:hover
-{
-    opacity: 50%;
 }
 
 #afficherplus /* CSS du bouton "Afficher plus" */
@@ -574,7 +577,7 @@ p /* CSS des textes p */
 #populaires /* CSS du container Les plus populaires */
 {
     font-weight: 400;
-    width: 420px;
+    width: 350px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
@@ -592,7 +595,13 @@ p /* CSS des textes p */
 {
     width: 20px;
     height: 20px;
-    margin-left: 140px;
+    margin-left: 130px;
+    transition: 0.4s;
+}
+
+#icone_chart:hover
+{
+    transform: scale(1.1);
 }
 
 #container_lespluspopulaires /* CSS du container inclant les plus populaires */
@@ -610,6 +619,12 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#soleil_matin:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_soleilmatin /* CSS de l'image Hôtel Le soleil du matin */
@@ -621,12 +636,6 @@ p /* CSS des textes p */
     width: 127px;
     height: 134px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_soleilmatin:hover
-{
-    opacity: 50%;
 }
 
 #chambres_hotes /* CSS du container Au cœur de l'eau Chambres d'hôtes */
@@ -637,6 +646,12 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#chambres_hotes:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_chambreshotes /* CSS de l'image Au coeur de l'eau chambres d'hôtes */
@@ -648,12 +663,6 @@ p /* CSS des textes p */
     width: 127px;
     height: 134px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_chambreshotes:hover
-{
-    opacity: 50%;
 }
 
 #bleu_blanc /* CSS du container Hôtel Tout bleu et blanc */
@@ -663,6 +672,12 @@ p /* CSS des textes p */
     height: 145px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    transition: 0.4s;
+}
+
+#bleu_blanc:hover
+{
+    transform: translateY(-5px);
 }
 
 #img_bleublanc /* CSS de l'image Hôtel tout bleu et blanc */
@@ -674,12 +689,6 @@ p /* CSS des textes p */
     width: 127px;
     height: 134px;
     object-fit: cover;
-    transition: 0.4s;
-}
-
-#img_bleublanc:hover
-{
-    opacity: 50%;
 }
 
 /* CSS DES ACTIVITÉS A MARSEILLE */
@@ -707,7 +716,8 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-left: 50px;
-    margin-right: 45px;
+    margin-right: 50px;
+    transition: 0.4s;
 }
 
 #img_vieuxport
@@ -718,18 +728,17 @@ p /* CSS des textes p */
     width: 300px;
     height: 380px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_vieuxport:hover
+#Vieux_port:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 #Pomegues_Frioul /* CSS container */
 {
     flex-direction: column;
-    margin-right: 45px;
+    margin-right: 50px;
 }
 
 #Pomegues
@@ -740,6 +749,7 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 40px;
+    transition: 0.4s;
 }
 
 #img_pomegues
@@ -750,12 +760,11 @@ p /* CSS des textes p */
     width: 300px;
     height: 170px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_pomegues:hover
+#Pomegues:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 #Frioul
@@ -765,6 +774,7 @@ p /* CSS des textes p */
     height: 170px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    transition: 0.4s;
 }
 
 #img_frioul
@@ -775,12 +785,11 @@ p /* CSS des textes p */
     width: 300px;
     height: 100px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_frioul:hover
+#Frioul:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 #Calanques
@@ -790,7 +799,8 @@ p /* CSS des textes p */
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 45px;
+    margin-right: 50px;
+    transition: 0.4s;
 }
 
 #img_calanques
@@ -801,12 +811,11 @@ p /* CSS des textes p */
     width: 300px;
     height: 380px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_calanques:hover
+#Calanques:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 #Dame_Longchamp /* CSS container */
@@ -822,6 +831,7 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 40px;
+    transition: 0.4s;
 }
 
 #img_damegarde
@@ -832,12 +842,11 @@ p /* CSS des textes p */
     width: 300px;
     height: 130px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_damegarde:hover
+#Dame_garde:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 #Longchamp
@@ -847,6 +856,7 @@ p /* CSS des textes p */
     height: 210px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    transition: 0.4s;
 }
 
 #img_longchamp
@@ -857,12 +867,11 @@ p /* CSS des textes p */
     width: 300px;
     height: 140px;
     object-fit: cover;
-    transition: 0.4s;
 }
 
-#img_longchamp:hover
+#Longchamp:hover
 {
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 /* CSS DU FOOTER */
