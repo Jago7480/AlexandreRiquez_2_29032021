@@ -41,7 +41,13 @@ p /* CSS des textes p */
 {
     padding-left: 50px;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    transition: 0.2s;
+}
+
+#logo:hover /* CSS du logo survolé */
+{
+    opacity: 75%;
 }
 
 #container_menu /* CSS du menu en haut à droite */
@@ -97,7 +103,7 @@ p /* CSS des textes p */
 
 #slogan /* CSS du slogan */
 {
-    line-height: 10px;
+    line-height: 15px;
     margin-left: 50px;
 }
 
@@ -682,6 +688,15 @@ p /* CSS des textes p */
 {
     font-weight: 400;
     margin-left: 50px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+#container_activitesmarseille /* CSS du container incluant les activités à Marseille */
+{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 60px;
 }
 
 #Vieux_port
@@ -692,12 +707,13 @@ p /* CSS des textes p */
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-left: 50px;
-    display: flex;
+    margin-right: 45px;
 }
 
 #Pomegues_Frioul /* CSS container */
 {
     flex-direction: column;
+    margin-right: 45px;
 }
 
 #Pomegues
@@ -707,6 +723,7 @@ p /* CSS des textes p */
     height: 240px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    margin-bottom: 40px;
 }
 
 #Frioul
@@ -725,7 +742,7 @@ p /* CSS des textes p */
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    display: flex;
+    margin-right: 45px;
 }
 
 #Dame_Longchamp /* CSS container */
@@ -740,6 +757,7 @@ p /* CSS des textes p */
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
+    margin-bottom: 40px;
 }
 #Longchamp
 {
