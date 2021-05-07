@@ -29,6 +29,12 @@ h3 /* CSS des titres H3 */
     font-weight: 700;
 }
 
+h4 /* CSS des titres H4 */
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
 p /* CSS des textes p */
 {
     font-weight: 400;
@@ -423,7 +429,11 @@ p /* CSS des textes p */
     transition: 0.4s;
 }
 
-
+#texte_cannebiere /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
+}
 
 #hotel_port /* CSS du container Hôtel du port */
 {
@@ -453,6 +463,12 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
+#texte_hotelport /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
+}
+
 #mouettes /* CSS du container Hôtel les mouettes */
 {
     border-radius: 20px;
@@ -478,6 +494,12 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
+}
+
+#texte_mouettes /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
 }
 
 #hotel_mer /* CSS du container Hôtel de la mer */
@@ -507,6 +529,12 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
+#texte_hotelmer /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
+}
+
 #le_panier /* CSS du container Auberge Le panier */
 {
     border-radius: 20px;
@@ -534,6 +562,12 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
+#texte_lepanier /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
+}
+
 #amina /* CSS du container Hôtel chez Amina */
 {
     border-radius: 20px;
@@ -558,6 +592,12 @@ p /* CSS des textes p */
     width: 236px;
     height: 114px;
     object-fit: cover;
+}
+
+#texte_amina /* CSS du texte Auberge la Cannebière */
+{
+    margin-left: 10px;
+    line-height: 13px;
 }
 
 #afficherplus /* CSS du bouton "Afficher plus" */
@@ -638,6 +678,11 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
+#texte_soleilmatin
+{
+
+}
+
 #chambres_hotes /* CSS du container Au cœur de l'eau Chambres d'hôtes */
 {
     border-radius: 20px;
@@ -665,6 +710,11 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
+#texte_chambreshotes
+{
+
+}
+
 #bleu_blanc /* CSS du container Hôtel Tout bleu et blanc */
 {
     border-radius: 20px;
@@ -689,6 +739,11 @@ p /* CSS des textes p */
     width: 127px;
     height: 134px;
     object-fit: cover;
+}
+
+#texte_bleublanc
+{
+    
 }
 
 /* CSS DES ACTIVITÉS A MARSEILLE */
