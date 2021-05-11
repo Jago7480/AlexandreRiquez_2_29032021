@@ -7,9 +7,22 @@ Par Alexandre RIQUEZ
 
 /* CSS DE BASE */
 
+*
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    min-height: 100%;
+    margin: 0;
+}
+
 body /* CSS du body */
 {
     font-family: 'Raleway', sans-serif;
+    min-height: 100%;
+    margin: 0;
 }
 
 a /* CSS des liens */
@@ -24,14 +37,15 @@ h1 /* CSS des titres H1 */
     font-size: 20px;
 }
 
-h3 /* CSS des titres H3 */
-{
-    font-weight: 700;
-}
-
-h4 /* CSS des titres H4 */
+h2 /* CSS des titres H2 */
 {
     font-weight: bold;
+    font-size: 16px;
+}
+
+h3 /* CSS des titres H3 (menu) */
+{
+    font-weight: normal;
     font-size: 16px;
 }
 
@@ -45,9 +59,9 @@ p /* CSS des textes p */
 
 #logo /* CSS du logo */ 
 {
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     transition: 0.2s;
 }
 
@@ -59,14 +73,16 @@ p /* CSS des textes p */
 #container_menu /* CSS du menu en haut à droite */
 {
     flex-direction: row;
+    display: flex;
+    align-self: baseline;
     float: right;
-    margin: 50px 50px;
+    margin-right: 50px;
 }
 
 #Hebergements /* CSS d'Hébergements dans le menu */
 {
     padding: 35px;
-    padding-top: 55px;
+    padding-top: 50px;
     transition: 0.2s;
 }
 
@@ -80,7 +96,7 @@ p /* CSS des textes p */
 #Activites /* CSS d'Activités dans le menu */
 {
     padding: 35px;
-    padding-top: 55px;
+    padding-top: 50px;
     transition: 0.2s;
 }
 
@@ -94,9 +110,8 @@ p /* CSS des textes p */
 #Sinscrire /* CSS de S'inscrire dans le menu */
 {
     color: #0065FC;
-    font-weight: bold;
     padding: 35px;
-    padding-top: 55px;
+    padding-top: 50px;
     transition: 0.2s;
 }
 
@@ -118,19 +133,26 @@ p /* CSS des textes p */
 #conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
 {
     display: inline-flex;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
-#marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
+#container_marqueur /* CSS du container du marqueur */
 {
-    width: 15px;
-    height: 15px;
+    width: 67px;
+    height: 67px;
     border: solid 1px;
     border-color: #F2F2F2;
     background-color: #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 10px;
+    transition: 0.3s; 
+}
+
+#marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
+{
+    width: 25px;
+    height: 25px;
     transition: 0.3s;
 }
 
@@ -351,7 +373,7 @@ p /* CSS des textes p */
 #filtres_indication /* CSS du texte à côté de l'icone d'infos */
 {
     font-size: smaller;
-    padding-left: 50px;
+    margin-left: 70px;
 }
 
 #icon_infos /* CSS de l'icone infos et son cercle */
@@ -376,7 +398,7 @@ p /* CSS des textes p */
 #container_hebergementspopulaire /* CSS du container incluant Hébergements à Marseille et Les plus populaires */
 {
     display: flex;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
@@ -385,7 +407,7 @@ p /* CSS des textes p */
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     font-weight: 400;
-    width: 800px;
+    width: 950px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
@@ -400,7 +422,7 @@ p /* CSS des textes p */
     margin-top: 10px;
 }
 
-#cannebiere /* CSS du container Auberge la Cannebière */
+.panel_hebergements /* CSS des panels d'hébergements à Marseille */
 {
     border-radius: 20px;
     width: 245px;
@@ -412,47 +434,12 @@ p /* CSS des textes p */
     transition: 0.4s;
 }
 
-#cannebiere:hover
+.panel_hebergements:hover /* CSS des panels d'hébergements à Marseille quand ils sont survolés */
 {
     transform: translateY(-5px);
 }
 
-#img_cannebiere /* CSS de l'image Auberge la Cannebière */
-{
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin: 5px;
-    width: 236px;
-    height: 114px;
-    object-fit: cover;
-    transition: 0.4s;
-}
-
-#texte_cannebiere /* CSS du texte Auberge la Cannebière */
-{
-    margin-left: 10px;
-    line-height: 13px;
-}
-
-#hotel_port /* CSS du container Hôtel du port */
-{
-    border-radius: 20px;
-    width: 245px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 1px 10px -5px black;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    transition: 0.4s;
-}
-
-#hotel_port:hover
-{
-    transform: translateY(-5px);
-}
-
-#img_hotelport /* CSS de l'image de l'Hotel du port */
+.imgpanel_hebergements
 {
     overflow: hidden;
     border-top-right-radius: 20px;
@@ -463,138 +450,7 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
-#texte_hotelport /* CSS du texte Auberge la Cannebière */
-{
-    margin-left: 10px;
-    line-height: 13px;
-}
-
-#mouettes /* CSS du container Hôtel les mouettes */
-{
-    border-radius: 20px;
-    width: 245px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 1px 10px -5px black;
-    margin-bottom: 30px;
-    transition: 0.4s;
-}
-
-#mouettes:hover
-{
-    transform: translateY(-5px);
-}
-
-#img_mouettes /* CSS de l'image de l'hotel les mouettes */
-{
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin: 5px;
-    width: 236px;
-    height: 114px;
-    object-fit: cover;
-}
-
-#texte_mouettes /* CSS du texte Auberge la Cannebière */
-{
-    margin-left: 10px;
-    line-height: 13px;
-}
-
-#hotel_mer /* CSS du container Hôtel de la mer */
-{
-    border-radius: 20px;
-    width: 245px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 1px 10px -5px black;
-    margin-right: 30px;
-    transition: 0.4s;
-}
-
-#hotel_mer:hover
-{
-    transform: translateY(-5px);
-}
-
-#img_hotelmer /* CSS de l'image Hôtel de la mer */
-{
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin: 5px;
-    width: 236px;
-    height: 114px;
-    object-fit: cover;
-}
-
-#texte_hotelmer /* CSS du texte Auberge la Cannebière */
-{
-    margin-left: 10px;
-    line-height: 13px;
-}
-
-#le_panier /* CSS du container Auberge Le panier */
-{
-    border-radius: 20px;
-    width: 245px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 1px 10px -5px black;
-    margin-right: 30px;
-    transition: 0.4s;
-}
-
-#le_panier:hover
-{
-    transform: translateY(-5px);
-}
-
-#img_lepanier /* CSS de l'image Auberge le panier */
-{
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin: 5px;
-    width: 236px;
-    height: 114px;
-    object-fit: cover;
-}
-
-#texte_lepanier /* CSS du texte Auberge la Cannebière */
-{
-    margin-left: 10px;
-    line-height: 13px;
-}
-
-#amina /* CSS du container Hôtel chez Amina */
-{
-    border-radius: 20px;
-    width: 245px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 1px 10px -5px black;
-    transition: 0.4s;
-}
-
-#amina:hover
-{
-    transform: translateY(-5px);
-}
-
-#img_amina /* CSS de l'image Hôtel chez Amina */
-{
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin: 5px;
-    width: 236px;
-    height: 114px;
-    object-fit: cover;
-}
-
-#texte_amina /* CSS du texte Auberge la Cannebière */
+.textepanel_hebergements /* CSS du texte des panels d'hébergements à Marseille */
 {
     margin-left: 10px;
     line-height: 13px;
@@ -743,7 +599,7 @@ p /* CSS des textes p */
 
 #texte_bleublanc
 {
-    
+
 }
 
 /* CSS DES ACTIVITÉS A MARSEILLE */
@@ -929,21 +785,23 @@ p /* CSS des textes p */
     transform: translateY(-5px);
 }
 
+.texte_activites /* CSS des textes "vieux port" etc... */
+{
+    margin-left: 20px;
+}
+
 /* CSS DU FOOTER */
 
 footer /* CSS du footer */
 {
     background-color: #F2F2F2;
-    height: 200px;
-    position: relative;
+    width: auto;
 }
 
 #container_footer /* CSS container footer, contenant à propos, hébergements et assistance */
 {
     display: flex;
     flex-direction: row;
-    margin-right: 800px;
-    box-sizing: inherit;
 }
 
 #col_apropos /* CSS de la colonne footer à propos */
