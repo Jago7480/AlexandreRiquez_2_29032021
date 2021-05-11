@@ -138,21 +138,20 @@ p /* CSS des textes p */
 
 #container_marqueur /* CSS du container du marqueur */
 {
-    width: 67px;
-    height: 67px;
+    width: 50px;
+    height: 50px;
     border: solid 1px;
     border-color: #F2F2F2;
     background-color: #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding: 10px;
     transition: 0.3s; 
 }
 
 #marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
 {
-    width: 25px;
-    height: 25px;
+    width: 14px;
+    height: auto;
     transition: 0.3s;
 }
 
@@ -163,7 +162,7 @@ p /* CSS des textes p */
 
 #searchbar /* CSS de la searchbar */
 {
-    padding: 10px;
+    padding: 15px;
     border: solid 1px;
     border-color: #F2F2F2;
     padding-right: 25px;
@@ -404,10 +403,30 @@ p /* CSS des textes p */
 
 /* CSS D'HEBERGEMENTS A MARSEILLE */
 
+.notations
+{
+    margin-left: 15px;
+}
+
+.star_active
+{
+    color: #0065FC;
+    height: 12px;
+    margin: -1px;
+    width: 12px;
+}
+
+.star
+{
+    height: 12px;
+    margin: -1px;
+    width: 12px;
+}
+
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     font-weight: 400;
-    width: 950px;
+    width: 890px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
@@ -420,6 +439,7 @@ p /* CSS des textes p */
     flex-wrap: wrap;
     display: inline-flex;
     margin-top: 10px;
+    margin-left: -15px;
 }
 
 .panel_hebergements /* CSS des panels d'hébergements à Marseille */
@@ -429,9 +449,10 @@ p /* CSS des textes p */
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 15px;
     transition: 0.4s;
+    line-height: 8px;
+
 }
 
 .panel_hebergements:hover /* CSS des panels d'hébergements à Marseille quand ils sont survolés */
@@ -444,7 +465,9 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
     width: 236px;
     height: 114px;
     object-fit: cover;
@@ -452,14 +475,14 @@ p /* CSS des textes p */
 
 .textepanel_hebergements /* CSS du texte des panels d'hébergements à Marseille */
 {
-    margin-left: 10px;
-    line-height: 13px;
+    margin-left: 15px;
 }
 
 #afficherplus /* CSS du bouton "Afficher plus" */
 {
     font-weight: bold;
     margin-top: 45px;
+    margin-left: 15px;
     transition: 0.2s;
 }
 
@@ -473,7 +496,7 @@ p /* CSS des textes p */
 #populaires /* CSS du container Les plus populaires */
 {
     font-weight: 400;
-    width: 350px;
+    width: 425px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
@@ -534,11 +557,6 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
-#texte_soleilmatin
-{
-
-}
-
 #chambres_hotes /* CSS du container Au cœur de l'eau Chambres d'hôtes */
 {
     border-radius: 20px;
@@ -566,11 +584,6 @@ p /* CSS des textes p */
     object-fit: cover;
 }
 
-#texte_chambreshotes
-{
-
-}
-
 #bleu_blanc /* CSS du container Hôtel Tout bleu et blanc */
 {
     border-radius: 20px;
@@ -595,11 +608,6 @@ p /* CSS des textes p */
     width: 127px;
     height: 134px;
     object-fit: cover;
-}
-
-#texte_bleublanc
-{
-
 }
 
 /* CSS DES ACTIVITÉS A MARSEILLE */
@@ -637,7 +645,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 380px;
+    height: 390px;
     object-fit: cover;
 }
 
@@ -669,7 +677,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 170px;
+    height: 180px;
     object-fit: cover;
 }
 
@@ -694,7 +702,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 100px;
+    height: 110px;
     object-fit: cover;
 }
 
@@ -720,7 +728,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 380px;
+    height: 390px;
     object-fit: cover;
 }
 
@@ -751,7 +759,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 130px;
+    height: 140px;
     object-fit: cover;
 }
 
@@ -776,7 +784,7 @@ p /* CSS des textes p */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
-    height: 140px;
+    height: 150px;
     object-fit: cover;
 }
 
