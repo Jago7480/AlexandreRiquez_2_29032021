@@ -55,7 +55,7 @@ p /* CSS des textes p */
 
 /* CSS DU HEADER */
 
-header
+.container
 {
     width: 1365px;
     margin: auto;
@@ -243,7 +243,7 @@ header
     height: 40px;
     border-radius: 50px;
     background-color: #DEEBFF;
-    padding: 11px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -251,7 +251,7 @@ header
 {
     margin: 10px;
     margin-left: -20px;
-    padding: 10px;
+    padding: 9px;
     padding-left: 25px;
     padding-right: 15px;
     border: solid 2px;
@@ -281,7 +281,7 @@ header
     height: 40px;
     border-radius: 50px;
     background-color: #DEEBFF;
-    padding: 11px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -289,7 +289,7 @@ header
 {
     margin: 10px;
     margin-left: -20px;
-    padding: 10px;
+    padding: 9px;
     padding-left: 25px;
     padding-right: 15px;
     border: solid 2px;
@@ -319,7 +319,7 @@ header
     height: 40px;
     border-radius: 50px;
     background-color: #DEEBFF;
-    padding: 11px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -327,7 +327,7 @@ header
 {
     margin: 10px;
     margin-left: -20px;
-    padding: 10px;
+    padding: 9px;
     padding-left: 25px;
     padding-right: 15px;
     border: solid 2px;
@@ -357,7 +357,7 @@ header
     height: 40px;
     border-radius: 50px;
     background-color: #DEEBFF;
-    padding: 11px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -365,7 +365,7 @@ header
 {
     margin: 10px;
     margin-left: -20px;
-    padding: 10px;
+    padding: 9px;
     padding-left: 25px;
     padding-right: 15px;
     border: solid 2px;
@@ -417,16 +417,10 @@ header
 #container_hebergementspopulaire /* CSS du container incluant Hébergements à Marseille et Les plus populaires */
 {
     display: flex;
-    margin: 10px auto;
     width: min-content;
 }
 
 /* CSS D'HEBERGEMENTS A MARSEILLE */
-
-.notations
-{
-    margin-left: 15px;
-}
 
 .star_active
 {
@@ -445,21 +439,23 @@ header
 
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
-    font-weight: 400;
     width: 890px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
-    margin-right: 25px;
-    margin-top: 20px;
+    margin: 20px 20px 0px 0px;
+}
+
+#titre_hebergements /* CSS du titre "Hebergements à Marseille */
+{
+    margin-bottom: 20px;
 }
 
 #container_hebergementsmarseille /* CSS du container des hotels d'hébergements à Marseille */
 {
-    flex-wrap: wrap;
-    display: inline-flex;
-    margin-top: 10px;
-    margin-left: -15px;
+    flex-flow: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .panel_hebergements /* CSS des panels d'hébergements à Marseille */
@@ -469,15 +465,15 @@ header
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin: 15px;
-    transition: 0.4s;
+    transition: 0.2s;
     line-height: 8px;
+    margin-bottom: 30px;
 
 }
 
 .panel_hebergements:hover /* CSS des panels d'hébergements à Marseille quand ils sont survolés */
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 .imgpanel_hebergements
@@ -501,8 +497,8 @@ header
 #afficherplus /* CSS du bouton "Afficher plus" */
 {
     font-weight: bold;
-    margin-top: 45px;
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
     transition: 0.2s;
 }
 
@@ -515,26 +511,26 @@ header
 
 #populaires /* CSS du container Les plus populaires */
 {
-    font-weight: 400;
-    width: 425px;
+    width: 400px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 40px;
-    margin-left: 25px;
-    margin-top: 20px;
+    padding: 25px;
+    margin: 20px 0px 0px 20px;
+    display: grid;
+    justify-content: center;
 }
 
 #populaireschart /* CSS du container incluant "les plus populaires" et l'icone chart */
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #icone_chart /* CSS de l'icone chart */
 {
     width: 20px;
     height: 20px;
-    margin-left: 130px;
     transition: 0.4s;
 }
 
@@ -547,7 +543,6 @@ header
 {
     display: inline-flex;
     flex-direction: column;
-    margin-top: 10px;
 }
 
 .panel_populaires /* CSS du panel les plus populaires */
@@ -558,31 +553,34 @@ header
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin: 15px 0px 15px 0px;
-    transition: 0.4s;
+    transition: 0.2s;
     display: flex;
 }
 
 .panel_populaires:hover /* CSS du panel les plus populaires survolé */
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 .imgpanel_populaires /* CSS de l'image Hôtel Le soleil du matin */
 {
-    overflow: hidden;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin: 5px;
     width: 127px;
-    height: 134px;
     object-fit: cover;
+}
+
+.textepanel_populaires
+{
+    margin: 0px 15px 0px 15px;
 }
 
 /* CSS DES ACTIVITÉS A MARSEILLE */
 
 #container_activitesmarseille
 {
-    width: min-content;
+    width: 1365px;
     margin: auto;
 }
 
@@ -596,7 +594,7 @@ header
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
-    margin-top: 65px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -607,8 +605,8 @@ header
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 50px;
-    transition: 0.4s;
+    margin-right: 40px;
+    transition: 0.2s;
 }
 
 #img_vieuxport
@@ -623,7 +621,7 @@ header
 
 #Vieux_port:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 #Pomegues_Frioul /* CSS container */
@@ -640,7 +638,7 @@ header
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 40px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 #img_pomegues
@@ -655,7 +653,7 @@ header
 
 #Pomegues:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 #Frioul
@@ -665,7 +663,7 @@ header
     height: 170px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 #img_frioul
@@ -680,7 +678,7 @@ header
 
 #Frioul:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 #Calanques
@@ -690,8 +688,8 @@ header
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 50px;
-    transition: 0.4s;
+    margin-right: 40px;
+    transition: 0.2s;
 }
 
 #img_calanques
@@ -706,7 +704,7 @@ header
 
 #Calanques:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 #Dame_Longchamp /* CSS container */
@@ -722,7 +720,7 @@ header
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
     margin-bottom: 40px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 #img_damegarde
@@ -737,7 +735,7 @@ header
 
 #Dame_garde:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 #Longchamp
@@ -747,7 +745,7 @@ header
     height: 210px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 #img_longchamp
@@ -762,7 +760,7 @@ header
 
 #Longchamp:hover
 {
-    transform: translateY(-5px);
+    box-shadow: 0px 1px 10px -2px #0065FC;
 }
 
 .texte_activites /* CSS des textes "vieux port" etc... */
@@ -782,8 +780,8 @@ footer /* CSS du footer */
 {
     display: flex;
     flex-direction: row;
-    padding: 30px 0px 30px 0px;
-    justify-content: space-evenly;
+    padding: 30px 325px 30px 0px;
+    justify-content: space-between;
 }
 
 #col_apropos /* CSS de la colonne footer à propos */
@@ -792,7 +790,6 @@ footer /* CSS du footer */
     flex-direction: column;
     line-height: 5px;
     font-weight: 500;
-
 }
 
 #col_hebergements /* CSS de la colonne footer nos hébergements */
@@ -809,4 +806,81 @@ footer /* CSS du footer */
     flex-direction: column;
     line-height: 5px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .container
+    {
+        width: 580px;
+        margin: auto;
+    }
+    
+    #container_logomenu /* CSS du container du logo ET du menu */
+    {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    #logo /* CSS du logo */ 
+    {
+        margin: 30px 0px 20px 20px;
+    }
+
+    #container_menu /* CSS du menu en haut à droite */
+    {
+    flex-direction: row;
+    display: flex;
+    align-self: baseline;
+    }
+
+    #Hebergements /* CSS d'Hébergements dans le menu */
+    {
+    padding: 35px;
+    padding-top: 50px;
+    transition: 0.2s;
+    border-top: solid 3px;
+    border-color: transparent;
+    }
+
+    #Hebergements:hover /* CSS d'Hébergements survolé */
+    {
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+    }
+
+    #Activites /* CSS d'Activités dans le menu */
+    {
+    padding: 35px;
+    padding-top: 50px;
+    transition: 0.2s;
+    border-top: solid 3px;
+    border-color: transparent;
+    }
+
+    #Activites:hover /* CSS d'Activités survolé */
+    {
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+    }
+
+    #Sinscrire /* CSS de S'inscrire dans le menu */
+    {
+    color: #0065FC;
+    padding: 35px;
+    padding-top: 50px;
+    transition: 0.2s;
+    border-top: solid 3px;
+    border-color: transparent;
+    }
+
+    #Sinscrire:hover /* CSS de S'inscrire survolé */
+    {
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+    }
+    
 }
