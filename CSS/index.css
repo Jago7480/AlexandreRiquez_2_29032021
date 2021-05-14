@@ -12,14 +12,13 @@ index.css
 
 html
 {
-    min-height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body /* CSS du body */
 {
     font-family: 'Raleway', sans-serif;
-    min-height: 100%;
     margin: 0;
 }
 
@@ -806,81 +805,4 @@ footer /* CSS du footer */
     flex-direction: column;
     line-height: 5px;
     font-weight: 500;
-}
-
-@media only screen and (max-width: 620px) {
-
-    .container
-    {
-        width: 580px;
-        margin: auto;
-    }
-    
-    #container_logomenu /* CSS du container du logo ET du menu */
-    {
-        justify-content: space-between;
-        display: flex;
-    }
-
-    #logo /* CSS du logo */ 
-    {
-        margin: 30px 0px 20px 20px;
-    }
-
-    #container_menu /* CSS du menu en haut à droite */
-    {
-    flex-direction: row;
-    display: flex;
-    align-self: baseline;
-    }
-
-    #Hebergements /* CSS d'Hébergements dans le menu */
-    {
-    padding: 35px;
-    padding-top: 50px;
-    transition: 0.2s;
-    border-top: solid 3px;
-    border-color: transparent;
-    }
-
-    #Hebergements:hover /* CSS d'Hébergements survolé */
-    {
-    color: #0065FC;
-    border-top: solid 3px;
-    border-color: #0065FC;
-    }
-
-    #Activites /* CSS d'Activités dans le menu */
-    {
-    padding: 35px;
-    padding-top: 50px;
-    transition: 0.2s;
-    border-top: solid 3px;
-    border-color: transparent;
-    }
-
-    #Activites:hover /* CSS d'Activités survolé */
-    {
-    color: #0065FC;
-    border-top: solid 3px;
-    border-color: #0065FC;
-    }
-
-    #Sinscrire /* CSS de S'inscrire dans le menu */
-    {
-    color: #0065FC;
-    padding: 35px;
-    padding-top: 50px;
-    transition: 0.2s;
-    border-top: solid 3px;
-    border-color: transparent;
-    }
-
-    #Sinscrire:hover /* CSS de S'inscrire survolé */
-    {
-    color: #0065FC;
-    border-top: solid 3px;
-    border-color: #0065FC;
-    }
-    
 }
