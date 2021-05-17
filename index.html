@@ -20,26 +20,27 @@
     <body>
 
         <!-- HEADER | LOGO / MENU -->
+
 <div class="container">
     <header>
         <div id="container_logomenu">
-        <a href="#">
-            <img src="Icons/Reservia.svg" alt="Logo Reservia" id="logo">
-        </a>
-
-        <nav id="container_menu">
-            <a href="index.html#hebergements_marseille" id="Hebergements">
-                <h3>Hébergements</h3>
+            <a href="#">
+                <img src="Icons/Reservia.svg" alt="Logo Reservia" id="logo">
             </a>
 
-            <a href="index.html#activites_marseille" id="Activites">
-                <h3>Activités</h3>
-            </a>
+            <nav id="container_menu">
+                <a href="index.html#hebergements_marseille" id="Hebergements">
+                    <h3>Hébergements</h3>
+                </a>
 
-            <a href="#" id="Sinscrire">
-                <h3><strong>S'inscrire</strong></h3>
-            </a>
-        </nav>
+                <a href="index.html#activites_marseille" id="Activites">
+                    <h3>Activités</h3>
+                </a>
+
+                <a href="#" id="Sinscrire">
+                    <h3><strong>S'inscrire</strong></h3>
+                </a>
+            </nav>
         </div>
             
     </header>
@@ -47,67 +48,70 @@
         <!-- SECTION 1 | SLOGAN / SEARCH BAR / FILTRES / INFORMATIONS -->
 
     <div id="container_searchfiltres">
+
         <div id="slogan">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
 
         <div id="conteneur_searchbar">
-            
 
-                    <div id="container_marqueur">
-                        <a href="#">
-                            <img src='Icons/map-marker-alt-solid.svg' alt="Marqueur" id="marqueur">
-                        </a>
-                    </div>
-
+            <div id="container_marqueur">
+                <a href="#">
+                    <img src='Icons/map-marker-alt-solid.svg' alt="Marqueur" id="marqueur">
+                </a>
+            </div>
+                    
             <form>
                 <div>
                     <a href="#">
-                            <input type="search" id="searchbar"
-                            placeholder="Marseille, France">
+                        <input type="search" id="searchbar"
+                        placeholder="Marseille, France">
                         <button id="button_searchbar">Rechercher</button>
                     </a>
                 </div>
             </form>
 
-        </div>
+    </div>
 
-        <div id="filtres_indication">
+        <div id="container_filtrespanel">
+
+            <h2 id="Filtre">Filtres</h2>
 
                 <div id="conteneur_filtres">
-                    <h2>Filtres</h2>
 
-            <a href="#">
-                <div id="conteneur_economique">
-                    <img src='Icons/money-bill-wave-solid.svg' alt="Économique" id="icon_economique">
-                    <h2 id="economique">Économique</h2>
+                    <a href="#">
+                        <div id="conteneur_economique">
+                            <img src='Icons/money-bill-wave-solid.svg' alt="Économique" id="icon_economique">
+                                <h2 id="economique">Économique</h2>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="conteneur_familial">
+                            <img src='Icons/child-solid.svg' alt="Familial" id="icon_familial">
+                                <h2 id="familial">Familial</h2>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="conteneur_romantique">
+                            <img src ='Icons/heart-solid.svg' alt="Romantique" id="icon_romantique">
+                                <h2 id="romantique">Romantique</h2>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="conteneur_animaux">
+                            <img src ='Icons/dog-solid.svg' alt="Animaux autorisés" id="icon_animaux">
+                                <h2 id="animaux">Animaux autorisés</h2>
+                        </div>
+                    </a>
+
                 </div>
-            </a>
-
-            <a href="#">
-                <div id="conteneur_familial">
-                    <img src='Icons/child-solid.svg' alt="Familial" id="icon_familial">
-                    <h2 id="familial">Familial</h2>
-                </div>
-            </a>
-
-            <a href="#">
-                <div id="conteneur_romantique">
-                    <img src ='Icons/heart-solid.svg' alt="Romantique" id="icon_romantique">
-                    <h2 id="romantique">Romantique</h2>
-                </div>
-            </a>
-
-            <a href="#">
-                <div id="conteneur_animaux">
-                    <img src ='Icons/dog-solid.svg' alt="Animaux autorisés" id="icon_animaux">
-                    <h2 id="animaux">Animaux autorisés</h2>
-                </div>
-            </a>
-
         </div>
 
+        <div id="indication">
             <div id="conteneur_infos_texte">
                 <a href="#">
                     <div class="icone_infos">
@@ -228,10 +232,14 @@
             <div id="populaires">
                 <div id="populaireschart">
                     <a href="#">
+                        <div id="titre_populaires">
                         <h1>Les plus populaires</h1>
+                        </div>
+                    </a>
                         <a href="#">
                             <div class="chart">
                                 <img src="Icons/chart-line-solid.svg" alt="chart" id="icone_chart">
+                        </a>
                             </div>
                         </div>
                 <div id="container_lespluspopulaires">
