@@ -524,8 +524,7 @@ p /* CSS des textes p */
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 50px 0px 30px 0px;
 }
 
 #Vieux_port
@@ -535,7 +534,7 @@ p /* CSS des textes p */
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 #img_vieuxport
