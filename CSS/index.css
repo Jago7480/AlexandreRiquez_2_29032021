@@ -214,6 +214,11 @@ p /* CSS des textes p */
     transition: 0.3s;
 }
 
+#Loupe /* CSS de la loupe visible qu'en version mobile */
+{
+    display: none;
+}
+
 #button_searchbar:hover /* CSS du bouton rechercher survolé */
 {
     background-color: #F2F2F2;

@@ -178,6 +178,11 @@ p /* CSS des textes p */
     cursor: pointer;
 }
 
+#Loupe /* CSS de la loupe visible qu'en version mobile */
+{
+    display: none;
+}
+
 #container_filtrespanel /* CSS des panels */
 {
     display: grid;
@@ -438,11 +443,6 @@ p /* CSS des textes p */
 }
 
 /* CSS LES PLUS POPULAIRES */
-
-#titre_populaires /* CSS du titre "Les plus populaires" */
-{
-
-}
 
 #populaires /* CSS du container Les plus populaires */
 {
