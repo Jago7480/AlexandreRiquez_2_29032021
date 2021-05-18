@@ -594,8 +594,7 @@ p /* CSS des textes p */
 
 #container_activitesmarseille
 {
-    width: 1365px;
-    margin: auto;
+    width: 1330px;
 }
 
 #container_blockactivites /* CSS du container incluant les activités à Marseille */
@@ -603,6 +602,7 @@ p /* CSS des textes p */
     flex-direction: row;
     display: flex;
     margin-bottom: 60px;
+    justify-content: space-between;
 }
 
 #activites_marseille /* CSS du container Activités à Marseille */
@@ -619,7 +619,7 @@ p /* CSS des textes p */
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     transition: 0.2s;
 }
 
@@ -641,7 +641,7 @@ p /* CSS des textes p */
 #Pomegues_Frioul /* CSS container */
 {
     flex-direction: column;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 #Pomegues
@@ -702,7 +702,7 @@ p /* CSS des textes p */
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     transition: 0.2s;
 }
 

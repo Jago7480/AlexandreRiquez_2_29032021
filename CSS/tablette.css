@@ -353,6 +353,7 @@ p /* CSS des textes p */
 {
     display: flex;
     width: min-content;
+    flex-direction: column;
 }
 
 /* CSS D'HEBERGEMENTS A MARSEILLE */
@@ -396,7 +397,7 @@ p /* CSS des textes p */
 .panel_hebergements /* CSS des panels d'hébergements à Marseille */
 {
     border-radius: 20px;
-    width: 255px;
+    width: 300px;
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -419,7 +420,7 @@ p /* CSS des textes p */
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
-    width: 246px;
+    width: 290px;
     height: 114px;
     object-fit: cover;
 }
@@ -434,6 +435,267 @@ p /* CSS des textes p */
     font-weight: bold;
     margin-top: 20px;
     margin-left: 5px;
+}
+
+/* CSS LES PLUS POPULAIRES */
+
+#titre_populaires /* CSS du titre "Les plus populaires" */
+{
+
+}
+
+#populaires /* CSS du container Les plus populaires */
+{
+    width: 728px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px 0px 0px 0px;
+    justify-content: center;
+}
+
+#populaireschart /* CSS du container incluant "les plus populaires" et l'icone chart */
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px 20px 10px;
+}
+
+#icone_chart /* CSS de l'icone chart */
+{
+    width: 20px;
+    height: 20px;
+}
+
+#container_lespluspopulaires /* CSS du container inclant les plus populaires */
+{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: -6px;
+}
+
+.panel_populaires /* CSS du panel les plus populaires */
+{
+    border-radius: 20px;
+    width: 325px;
+    height: 145px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+}
+
+.imgpanel_populaires /* CSS de l'image Hôtel Le soleil du matin */
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    width: 127px;
+    object-fit: cover;
+}
+
+.textepanel_populaires
+{
+    margin: 0px 15px 0px 15px;
+    display: grid;
+    align-content: flex-start;
+}
+
+/* CSS DES ACTIVITÉS A MARSEILLE */
+
+#container_activitesmarseille
+{
+    width: 728px;
+    margin: auto;
+}
+
+#container_blockactivites /* CSS du container incluant les activités à Marseille */
+{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#activites_marseille /* CSS du container Activités à Marseille */
+{
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#Vieux_port
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+    margin: 0px 0px 30px 0px;
+}
+
+#img_vieuxport
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+}
+
+#Pomegues_Frioul /* CSS container */
+{
+    flex-direction: column;
+}
+
+#Pomegues
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_pomegues
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#Frioul
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_frioul
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 110px;
+    object-fit: cover;
+}
+
+#Calanques
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_calanques
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+}
+
+#Dame_Longchamp /* CSS container */
+{
+    flex-direction: column;
+}
+
+#Dame_garde
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_damegarde
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 140px;
+    object-fit: cover;
+}
+
+#Longchamp
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 210px;
+    background-color: white;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+#img_longchamp
+{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.texte_activites /* CSS des textes "vieux port" etc... */
+{
+    margin-left: 20px;
+}
+
+/* CSS DU FOOTER */
+
+footer /* CSS du footer */
+{
+    background-color: #F2F2F2;
+    width: auto;
+}
+
+#container_footer /* CSS container footer, contenant à propos, hébergements et assistance */
+{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px 30px 10px;
+    justify-content: space-between;
+}
+
+#col_apropos /* CSS de la colonne footer à propos */
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    font-weight: 500;
+}
+
+#col_hebergements /* CSS de la colonne footer nos hébergements */
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    font-weight: 500;
+}
+
+#col_assistance /* CSS de la colonne footer assistance */
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    font-weight: 500;
 }
 
 }
