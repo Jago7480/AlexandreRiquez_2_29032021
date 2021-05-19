@@ -66,6 +66,11 @@ p /* CSS des textes p */
     display: flex;
 }
 
+#container_logosinscriremobile /* CSS du container logo et s'inscrire sur mobile */
+{
+    display: none;
+}
+
 #logo /* CSS du logo */ 
 {
     margin: 50px 0px 20px 0px;

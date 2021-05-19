@@ -358,7 +358,7 @@ p /* CSS des textes p */
 {
     display: flex;
     width: min-content;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 /* CSS D'HEBERGEMENTS A MARSEILLE */
@@ -381,7 +381,7 @@ p /* CSS des textes p */
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
     width: 728px;
-    background-color: #F2F2F2;
+    background-color: transparent;
     border-radius: 20px;
     padding: 40px;
     margin: 20px 20px 0px 0px;

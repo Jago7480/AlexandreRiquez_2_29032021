@@ -18,9 +18,32 @@
         display: flex;
     }
 
+    #container_logosinscriremobile /* CSS du container logo et s'inscrire sur mobile */
+    {
+        display: flex;
+
+    }
+
     #logo /* CSS du logo */ 
     {
         margin: 30px 0px 20px 20px;
+        display: none;
+    }
+
+    #logo_mobile /* CSS du logo mobile */
+    {
+        margin: 30px 0px 20px 20px;
+    }
+
+    #Sinscrire_mobile /* CSS de S'inscrire version mobile */
+    {
+    color: #0065FC;
+    /* padding: 35px; */
+    /* padding-top: 50px; */
+    transition: 0.2s;
+    border-top: solid 3px;
+    border-color: transparent;
+    display: flex;
     }
 
     #container_menu /* CSS du menu en haut à droite */
@@ -52,12 +75,7 @@
 
     #Sinscrire /* CSS de S'inscrire dans le menu */
     {
-    color: #0065FC;
-    /* padding: 35px; */
-    /* padding-top: 50px; */
-    transition: 0.2s;
-    border-top: solid 3px;
-    border-color: transparent;
+    display: none;
     }
     
 }
