@@ -80,6 +80,11 @@ p /* CSS des textes p */
     align-self: baseline;
 }
 
+#container_menumobile /* CSS du menu mobile */
+{
+    display: none;
+}
+
 #Hebergements /* CSS d'Hébergements dans le menu */
 {
     padding: 35px;
@@ -438,7 +443,6 @@ p /* CSS des textes p */
 #afficherplus /* CSS du bouton "Afficher plus" */
 {
     font-weight: bold;
-    margin-top: 20px;
     margin-left: 5px;
 }
 
@@ -524,7 +528,7 @@ p /* CSS des textes p */
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
-    margin: 50px 0px 30px 0px;
+    margin: 50px 0px 30px 30px;
 }
 
 #Vieux_port

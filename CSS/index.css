@@ -89,6 +89,11 @@ p /* CSS des textes p */
     align-self: baseline;
 }
 
+#container_menumobile /* CSS du menu mobile */
+{
+    display: none;
+}
+
 #Hebergements /* CSS d'Hébergements dans le menu */
 {
     padding: 35px;
@@ -138,12 +143,12 @@ p /* CSS des textes p */
     border-color: #0065FC;
 }
 
+/* CSS SEARCH BAR & FILTRES */
+
 #slogan /* CSS du slogan */
 {
     line-height: 15px;
 }
-
-/* CSS SEARCH BAR & FILTRES */
 
 #container_searchfiltres /* CSS du container regroupant le slogan, la search bar et les filtres */
 {
@@ -512,7 +517,6 @@ p /* CSS des textes p */
 #afficherplus /* CSS du bouton "Afficher plus" */
 {
     font-weight: bold;
-    margin-top: 20px;
     margin-left: 5px;
     transition: 0.2s;
 }
