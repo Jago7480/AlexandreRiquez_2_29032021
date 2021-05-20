@@ -58,7 +58,7 @@ p /* CSS des textes p */
 
 .container
 {
-    width: 728px;
+    width: 768px;
     margin: auto;
 }
 
@@ -66,11 +66,13 @@ p /* CSS des textes p */
 {
     justify-content: space-between;
     display: flex;
+    width: 728px;
+    margin: auto;
 }
 
 #logo /* CSS du logo */ 
 {
-    margin: 50px 0px 20px 0px;
+    margin: 50px 20px 0px 0px;
 }
 
 #container_menu /* CSS du menu en haut à droite */
@@ -93,12 +95,26 @@ p /* CSS des textes p */
     border-color: transparent;
 }
 
+#Hebergements:hover /* CSS d'Hébergements survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
+}
+
 #Activites /* CSS d'Activités dans le menu */
 {
     padding: 35px;
     padding-top: 50px;
     border-top: solid 3px;
     border-color: transparent;
+}
+
+#Activites:hover /* CSS d'Activités survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
 }
 
 #Sinscrire /* CSS de S'inscrire dans le menu */
@@ -108,6 +124,13 @@ p /* CSS des textes p */
     padding-top: 50px;
     border-top: solid 3px;
     border-color: transparent;
+}
+
+#Sinscrire:hover /* CSS de S'inscrire survolé */
+{
+    color: #0065FC;
+    border-top: solid 3px;
+    border-color: #0065FC;
 }
 
 #slogan /* CSS du slogan */
@@ -363,6 +386,7 @@ p /* CSS des textes p */
 {
     display: flex;
     width: min-content;
+    margin: auto;
     flex-direction: column-reverse;
 }
 
@@ -385,11 +409,11 @@ p /* CSS des textes p */
 
 #hebergements_marseille /* CSS du container hébergements à Marseille */
 {
-    width: 728px;
+    width: 768px;
     background-color: transparent;
     border-radius: 20px;
     padding: 40px;
-    margin: 20px 20px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 #titre_hebergements /* CSS du titre "Hebergements à Marseille */
@@ -443,16 +467,16 @@ p /* CSS des textes p */
 #afficherplus /* CSS du bouton "Afficher plus" */
 {
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 /* CSS LES PLUS POPULAIRES */
 
 #populaires /* CSS du container Les plus populaires */
 {
-    width: 728px;
+    width: 768px;
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 25px;
     margin: 20px 0px 0px 0px;
     justify-content: center;
@@ -463,7 +487,7 @@ p /* CSS des textes p */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 10px 20px 10px;
+    margin: 0px 20px 20px 20px;
 }
 
 #icone_chart /* CSS de l'icone chart */
@@ -512,7 +536,7 @@ p /* CSS des textes p */
 
 #container_activitesmarseille
 {
-    width: 728px;
+    width: 768px;
     margin: auto;
 }
 
@@ -528,7 +552,7 @@ p /* CSS des textes p */
 #activites_marseille /* CSS du container Activités à Marseille */
 {
     font-weight: 400;
-    margin: 50px 0px 30px 30px;
+    margin: 50px 0px 30px 40px;
 }
 
 #Vieux_port
@@ -675,6 +699,7 @@ footer /* CSS du footer */
     flex-direction: row;
     padding: 30px 20px 30px 10px;
     justify-content: space-between;
+    margin: 0px 30px 0px 30px;
 }
 
 #col_apropos /* CSS de la colonne footer à propos */
