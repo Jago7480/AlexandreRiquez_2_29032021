@@ -202,7 +202,6 @@ p /* CSS des textes p */
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     height: 40px;
-    padding-right: 13px;
     cursor: pointer;
 }
 
@@ -431,7 +430,7 @@ p /* CSS des textes p */
 .panel_hebergements /* CSS des panels d'hébergements à Marseille */
 {
     border-radius: 20px;
-    width: 300px;
+    width: 320px;
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -454,7 +453,7 @@ p /* CSS des textes p */
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
-    width: 290px;
+    width: 310px;
     height: 114px;
     object-fit: cover;
 }
@@ -558,7 +557,7 @@ p /* CSS des textes p */
 #Vieux_port
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -570,7 +569,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 390px;
     object-fit: cover;
 }
@@ -583,7 +582,7 @@ p /* CSS des textes p */
 #Pomegues
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 240px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -594,7 +593,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 180px;
     object-fit: cover;
 }
@@ -602,7 +601,7 @@ p /* CSS des textes p */
 #Frioul
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 170px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -613,7 +612,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 110px;
     object-fit: cover;
 }
@@ -621,7 +620,7 @@ p /* CSS des textes p */
 #Calanques
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 450px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -632,7 +631,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 390px;
     object-fit: cover;
 }
@@ -645,7 +644,7 @@ p /* CSS des textes p */
 #Dame_garde
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 200px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -656,7 +655,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 140px;
     object-fit: cover;
 }
@@ -664,7 +663,7 @@ p /* CSS des textes p */
 #Longchamp
 {
     border-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 210px;
     background-color: white;
     box-shadow: 0px 1px 10px -5px black;
@@ -675,7 +674,7 @@ p /* CSS des textes p */
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 300px;
+    width: 330px;
     height: 150px;
     object-fit: cover;
 }

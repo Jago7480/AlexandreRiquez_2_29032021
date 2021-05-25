@@ -219,7 +219,6 @@ p /* CSS des textes p */
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     height: 40px;
-    padding-right: 13px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -530,7 +529,7 @@ p /* CSS des textes p */
 
 #titre_populaires /* CSS du titre "Les plus populaires" */
 {
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 
 #populaires /* CSS du container Les plus populaires */

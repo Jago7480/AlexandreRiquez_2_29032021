@@ -58,7 +58,7 @@
     border-bottom: solid 3px;
     border-top: none;
     border-color: #f2f2f2;
-    padding: 0px 52px 0px 53px;
+    padding: 0px 50px 0px 50px;
     }
 
     #Hebergements:hover
@@ -71,7 +71,7 @@
     border-bottom: solid 3px;
     border-top: none;
     border-color: #f2f2f2;
-    padding: 0px 53px 0px 52px;
+    padding: 0px 50px 0px 50px;
     }
 
     #Activites:hover
@@ -101,13 +101,13 @@
 #conteneur_searchbar /* CSS de la searchbar et de l'icone marqueur */
 {
     display: inline-flex;
-    margin: 0px 0px 20px 0px
+    margin: 0px 0px 20px 10px
 }
 
 #container_marqueur /* CSS du container du marqueur */
 {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     border: solid 1px;
     border-color: #F2F2F2;
     background-color: #F2F2F2;
@@ -120,7 +120,7 @@
 
 #marqueur /* CSS de l'icone Marqueur à côté du champ de recherche */
 {
-    width: 10px;
+    width: 14px;
     height: auto;
     transition: 0.3s;
 }
@@ -132,7 +132,7 @@
 
 #searchbar /* CSS de la searchbar */
 {
-    height: 40px;
+    height: 55px;
     border: solid 1px;
     border-color: #F2F2F2;
     outline: none;
@@ -159,9 +159,10 @@
     color: white;
     border-radius: 15px;
     margin-left: -20px;
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
     cursor: pointer;
+    justify-content: center;
 }
 
 #search /* CSS du texte Rechercher */
@@ -172,8 +173,8 @@
 #Loupe /* CSS de la loupe visible qu'en version mobile */
 {
     display: flex;
-    width: 14px;
-    margin: 0px 0px 0px 5px;
+    width: 18px;
+    margin: 0px 0px 0px 10px;
 }
 
 #button_searchbar:hover /* CSS du bouton rechercher survolé */
