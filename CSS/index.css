@@ -194,7 +194,6 @@ p /* CSS des textes p */
     border: solid 1px;
     border-color: #F2F2F2;
     outline: none;
-    font-size: normal;
     font-weight: 400;
     padding-left: 10px;
     padding-right: 55px;
@@ -204,7 +203,7 @@ p /* CSS des textes p */
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 750;
-    color: black !important;
+    color: black;
 }
 
 #button_searchbar /* CSS du bouton rechercher */
