@@ -603,6 +603,16 @@ p /* CSS des textes p */
     align-content: flex-start;
 }
 
+.textepanel_populaires p
+{
+    margin-top: -5px;
+}
+
+.textepanel_populaires .notations
+{
+    margin-top: 25px;
+}
+
 /* CSS DES ACTIVITÉS A MARSEILLE */
 
 #container_activitesmarseille
@@ -792,7 +802,7 @@ p /* CSS des textes p */
 
 .texte_activites /* CSS des textes "vieux port" etc... */
 {
-    margin-left: 20px;
+    margin: 15px 0px 0px 20px;
 }
 
 /* CSS DU FOOTER */
