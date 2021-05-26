@@ -528,7 +528,7 @@ p /* CSS des textes p */
 
 #titre_populaires /* CSS du titre "Les plus populaires" */
 {
-    margin-bottom: 20px;
+
 }
 
 #populaires /* CSS du container Les plus populaires */
@@ -545,9 +545,11 @@ p /* CSS des textes p */
 #populaireschart /* CSS du container incluant "les plus populaires" et l'icone chart */
 {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-    margin-bottom: -10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: -50px;
 }
 
 #icone_chart /* CSS de l'icone chart */
@@ -555,7 +557,6 @@ p /* CSS des textes p */
     width: 20px;
     height: 20px;
     transition: 0.4s;
-    margin-bottom: -15px;
 }
 
 #icone_chart:hover
