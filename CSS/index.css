@@ -83,7 +83,7 @@ p /* CSS des textes p */
 {
     flex-direction: row;
     display: flex;
-    grid-column-start: 3;
+    grid-column-start: 2;
 }
 
 #Hebergements /* CSS d'Hébergements dans le menu */

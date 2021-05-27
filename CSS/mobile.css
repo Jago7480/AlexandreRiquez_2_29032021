@@ -21,19 +21,12 @@
         justify-items: flex-end;
     }
 
-    #Sinscrire_mobile /* CSS de S'inscrire version mobile */
-    {
-    color: #0065FC;
-    margin: 30px 20px 10px 0px;
+    #container_menu /* CSS du menu en haut à droite */
+{
+    flex-direction: row;
     display: flex;
-    }
-
-    #container_menumobile /* CSS du menu mobile */
-    {
-        flex-direction: row;
-        display: flex;
-        justify-content: space-evenly;
-    }
+    grid-column-start: 3;
+}
 
     #Hebergements /* CSS d'Hébergements dans le menu */
     {
