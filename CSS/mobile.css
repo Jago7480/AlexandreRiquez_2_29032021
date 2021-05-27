@@ -14,24 +14,11 @@
     
     #container_logomenu /* CSS du container du logo ET du menu */
     {
-        display: none;
-    }
-
-    #container_logosinscriremobile /* CSS du container logo et s'inscrire sur mobile */
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    #logo /* CSS du logo */ 
-    {
-        display: none;
-    }
-
-    #logo_mobile /* CSS du logo mobile */
-    {
-        margin: 30px 0px 10px 20px;
+        margin: -30px 0px 0px 20px;
+        display: grid;
+        grid-template-columns: 97px auto 140px;
+        grid-template-rows: 60% 55px auto;
+        justify-items: flex-end;
     }
 
     #Sinscrire_mobile /* CSS de S'inscrire version mobile */
@@ -39,11 +26,6 @@
     color: #0065FC;
     margin: 30px 20px 10px 0px;
     display: flex;
-    }
-
-    #container_menu /* CSS du menu en haut à droite */
-    {
-        display: none;
     }
 
     #container_menumobile /* CSS du menu mobile */
@@ -78,18 +60,13 @@
     {
         border-top: none;
     }
-
-    #Sinscrire /* CSS de S'inscrire dans le menu */
-    {
-    display: none;
-    }
     
 /* CSS SEARCH BAR & FILTRES */
 
 #slogan /* CSS du slogan */
 {
     line-height: 24px;
-    margin: 20px 30px 25px 5px;
+    margin: 0px 30px 25px 5px;
 }
 
 #container_searchfiltres /* CSS du container regroupant le slogan, la search bar et les filtres */

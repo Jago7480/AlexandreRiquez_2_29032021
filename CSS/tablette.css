@@ -64,10 +64,11 @@ p /* CSS des textes p */
 
 #container_logomenu /* CSS du container du logo ET du menu */
 {
-    justify-content: space-between;
-    display: flex;
-    width: 728px;
-    margin: auto;
+    margin: 0px 0px 0px 40px;
+    display: grid;
+    grid-template-columns: 97px auto 140.35px;
+    grid-template-rows: 0;
+    justify-items: flex-end;
 }
 
 #logo /* CSS du logo */ 
@@ -79,12 +80,7 @@ p /* CSS des textes p */
 {
     flex-direction: row;
     display: flex;
-    align-self: baseline;
-}
-
-#container_menumobile /* CSS du menu mobile */
-{
-    display: none;
+    grid-column-start: 2;
 }
 
 #Hebergements /* CSS d'Hébergements dans le menu */
@@ -124,6 +120,7 @@ p /* CSS des textes p */
     padding-top: 50px;
     border-top: solid 3px;
     border-color: transparent;
+    grid-column-start: 3;
 }
 
 #Sinscrire:hover /* CSS de S'inscrire survolé */

@@ -62,13 +62,10 @@ p /* CSS des textes p */
 
 #container_logomenu /* CSS du container du logo ET du menu */
 {
-    justify-content: space-between;
-    display: flex;
-}
-
-#container_logosinscriremobile /* CSS du container logo et s'inscrire sur mobile */
-{
-    display: none;
+    display: grid;
+    grid-template-columns: 97px auto 140.35px;
+    grid-template-rows: 0;
+    justify-items: flex-end;
 }
 
 #logo /* CSS du logo */ 
@@ -86,12 +83,7 @@ p /* CSS des textes p */
 {
     flex-direction: row;
     display: flex;
-    align-self: baseline;
-}
-
-#container_menumobile /* CSS du menu mobile */
-{
-    display: none;
+    grid-column-start: 3;
 }
 
 #Hebergements /* CSS d'Hébergements dans le menu */
@@ -134,6 +126,7 @@ p /* CSS des textes p */
     transition: 0.2s;
     border-top: solid 3px;
     border-color: transparent;
+    grid-column-start: 3;
 }
 
 #Sinscrire:hover /* CSS de S'inscrire survolé */
@@ -525,11 +518,6 @@ p /* CSS des textes p */
 }
 
 /* CSS LES PLUS POPULAIRES */
-
-#titre_populaires /* CSS du titre "Les plus populaires" */
-{
-
-}
 
 #populaires /* CSS du container Les plus populaires */
 {
